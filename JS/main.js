@@ -1,7 +1,7 @@
 const PrecioGramo = 1800
 let continuar = true 
 let reprocann = true
-const mensajeBienvenida = "Debes ingresar una valor en gramos correspondientes a la cuota de cannabis medicinal mensual :"
+const mensajeBienvenida = "Debes ingresar una valor minimo de 10 gramos o la cuota maxima de 40 gramos correspondientes a la cuota de cannabis medicinal mensual :"
 
 function CotizarCuotaMensual() {
     reprocann = confirm("¿Quieres socio del club Cannabico Green Garden?")
